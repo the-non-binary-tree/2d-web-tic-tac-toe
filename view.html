@@ -10,24 +10,27 @@
 
     <title>Making GUI for Web TicTacToe</title>
   </head>
-  <body>
-    <div>Web TicTacToe 100x100</div>
-    <div>Goal: Get five of the same mark consecutive in a line - horizontally, vertically, or diagonally</div>
-    <!-- <div>Choose your mark:
-      <button type="button" class="btn" style="color: black; border-color: black;">X</button>
-      <button type="button" class="btn" style="color: purple; border-color: purple;">O</button>
-    </div> -->
-    
-    <div>
-      <button id="newGame" type="button" class="btn btn-outline-primary">Start New Game</button>
+  <body class="text-center">
+    <div id='pre-game'>
+      <div>TicTacToe 15x15</div>
+      <div>Get five of the same mark consecutive in a line - horizontally, vertically, or diagonally - to WIN</div>
+      <div>
+        <button id="new-game" type="button" class="btn btn-outline-primary">Start New Game</button>
+      </div>
     </div>
-
-    <div>
+    
+    
+    <div id='canvas-container' class='position-relative'>
       <canvas id="myCanvas" width="600" height="600" style="border:1px solid #c3c3c3;"></canvas>
+    
+      <div id='text-container'>
+        <div id='winner-announcement' class='position-absolute'
+        style='left: 43%; right: 43%; top: 40%; padding: .375rem .75rem; visibility: hidden;
+        border: purple 1px solid; border-radius: 4px; background-color: white; color: purple;'>
+        </div>
+      </div>
     </div>
     
-    
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="script.js"></script>
