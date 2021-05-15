@@ -8,7 +8,11 @@
 
 ### Goal 1. JavaScript
 - Recognized personal uncomfort when facing JavaScript, I forced myself to a project dependent on it.
-- Specific 
+- Concepts used in the project:
+  - Canvas
+  - Template creating for symbols
+  - Event handler: mouseClick
+  - Elements' visibility
 - My current new goal is to focus on React library for user interface  
 *(also see 'Goal 3. Workflow' for more reasons to focus on React)*.
 
