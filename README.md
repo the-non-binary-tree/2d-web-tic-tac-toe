@@ -23,5 +23,7 @@
   - Descendent algorithms cannot accumulate enough wins to replace ancestor algorithms
 
 - With the goal of making the game playable on board dynamic in both size and dimension,  
-and keeping the project managable at the moment, I designed an algorithm based on strategy  
+and keeping the project managable at the time, I designed an algorithm based on strategy  
 of a nominal human player.
+
+### Goal 3. Workflow
