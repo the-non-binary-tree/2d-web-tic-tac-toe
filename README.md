@@ -7,7 +7,7 @@
 3. Build project workflow
 
 ### Goal 1. JavaScript
-- Recognized personal uncomfort when facing JavaScript, I forced myself to a project dependent on it.
+- Recognized personal uncomfort when facing JavaScript, I forced myself to a project primarily uses it.
 - Concepts used in the project:
   - Canvas
   - Template creating for symbols
