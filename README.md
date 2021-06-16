@@ -18,8 +18,9 @@
 
 ### Goal 2. Algorithm
 - MiniMax algorithm
-- Inheritent algorithm:
-  - Time complexity grows significantly at 4-dimensioned 25-sized board
+- Genetic algorithm:
+  - Time complexity grows significantly when increase number of dimensions and edge length  
+  - The algorithm takes significantly more cycles to reach a conlusion when the board grows past 4 dimensions 
   - Descendent algorithms cannot accumulate enough wins to replace ancestor algorithms
 
 - With the goal of making the game playable on board dynamic in both size and dimension,  
